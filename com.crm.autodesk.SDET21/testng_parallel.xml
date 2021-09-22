@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Test_1">
+    <classes>
+      <class name="com.crm.autodesk.pom.TC_53_SearchLeadByClickingOnFaxTest"/>
+      <class name="com.crm.autodesk.pom.TC_52_SearchLeadByClickingOnCreateTimeTestTestNG"/>
+      <class name="com.crm.autodesk.pom.TC_55_SearchLeadByClickingOnLeadSourceTest"/>
+      <class name="com.crm.autodesk.pom.TC_51_SearchLeadByClickingOnAnnualRevenueTestTestNG"/>
+      <class name="com.crm.autodesk.pom.TC_54_SearchLeadByClickingOnLeadNoTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" parallel="tests" name="Test_2">
+    <classes>
+      <class name="com.crm.autodesk.pom.TC_53_SearchLeadByClickingOnFaxTest"/>
+      <class name="com.crm.autodesk.pom.TC_52_SearchLeadByClickingOnCreateTimeTestTestNG"/>
+      <class name="com.crm.autodesk.pom.TC_55_SearchLeadByClickingOnLeadSourceTest"/>
+      <class name="com.crm.autodesk.pom.TC_51_SearchLeadByClickingOnAnnualRevenueTestTestNG"/>
+      <class name="com.crm.autodesk.pom.TC_54_SearchLeadByClickingOnLeadNoTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
